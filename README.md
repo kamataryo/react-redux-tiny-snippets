@@ -14,12 +14,15 @@ This package autocompletes..
 // Typing `mapstatetoprops` leads...
 
 /**
- * componentWillReceiveProps
- * @param  {object} nextProps React props.
- * @return {void}
+ * map state to props
+ * @param  {object} state    state tree
+ * @param  {object} ownProps own props
+ * @return {object}          state props
  */
-componentWillReceiveProps(nextProps) {
-  $1
+const mapStateToProps = (state, ownProps) => {
+  return {
+    $1
+  }
 }
 ```
 
