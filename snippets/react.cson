@@ -1,0 +1,64 @@
+'.source.js':
+  'react-redux-API/Provider':
+    prefix: 'provider react-redux-api'
+    leftLabel: '<Provider store>'
+    body: '''
+      <Provider store={ store }>
+        $1
+      </Provider>
+      '''
+  'react-redux-API/connect':
+    prefix: 'connect react-redux-api'
+    leftLabel: 'connect([mapStateToProps], [mapDispatchToProps], [mergeProps], [options])'
+    body: '''
+      connect(mapStateToProps, mapDispatchToProps, mergeProps, options)
+      '''
+  'react-redux-API/mapStateToProps':
+    prefix: 'mapstatetoprops react-redux-api'
+    leftLabel: 'mapStateToProps(state, [ownProps]): stateProps'
+    body: '''
+      /**
+       * map state to props
+       * @param  {object} state    state tree
+       * @param  {object} ownProps own props
+       * @return {object}          state props
+       */
+      const mapStateToProps = (state, ownProps) => {
+        return {
+          $1
+        }
+      }
+      '''
+  'react-redux-API/mapDispatchToProps':
+    prefix: 'mapdispatchtoprops react-redux-api'
+    leftLabel: 'mapDispatchToProps(dispatch, [ownProps]): dispatchProps'
+    body: '''
+      /**
+       * map dispatch to props
+       * @param  {function} dispatch dispatcher
+       * @param  {object}   ownProps own props
+       * @return {object}            dispatch props
+       */
+      const mapDispatchToProps = (dispatch, ownProps) => {
+        return {
+          $1
+        }
+      }
+      '''
+  'react-redux-API/mergeProps':
+    prefix: 'mapdispatchtoprops react-redux-api'
+    leftLabel: 'mergeProps(stateProps, dispatchProps, ownProps): props'
+    body: '''
+      /**
+       * map state to props
+       * @param  {object} stateProps    state props
+       * @param  {object} dispatchProps dispatch props
+       * @param  {object} ownProps      own props
+       * @return {object}               props
+       */
+      const mergeProps = (stateProps, dispatchProps, ownProps) => {
+        return {
+          $1
+        }
+      }
+      '''
