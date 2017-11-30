@@ -46,7 +46,7 @@
       }
       '''
   'react-redux-API/mergeProps':
-    prefix: 'mapdispatchtoprops react-redux-api'
+    prefix: 'mergeprops react-redux-api'
     leftLabel: 'mergeProps(stateProps, dispatchProps, ownProps): props'
     body: '''
       /**
