@@ -13,6 +13,7 @@
     "atom",
     "react",
     "redux",
+    "react-redux",
     "snippets",
     "autocomplete",
     "completion"
