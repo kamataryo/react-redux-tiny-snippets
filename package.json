@@ -5,10 +5,6 @@
   "main": "index.js",
   "author": "kamataryo <mugil.cephalus+github.com@gmail.com>",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kamataryo/react-redux-tiny-snippets.git"
-  },
   "keywords": [
     "atom",
     "react",
@@ -21,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/kamataryo/react-redux-tiny-snippets/issues"
   },
-  "homepage": "https://github.com/kamataryo/react-redux-tiny-snippets#readme"
+  "homepage": "https://github.com/kamataryo/react-redux-tiny-snippets#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamataryo/react-redux-tiny-snippets.git"
+  }
 }
