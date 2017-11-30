@@ -20,6 +20,6 @@
   "homepage": "https://github.com/kamataryo/react-redux-tiny-snippets#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kamataryo/react-redux-tiny-snippets.git"
+    "url": "git://github.com/kamataryo/react-redux-tiny-snippets.git"
   }
 }
