@@ -4,9 +4,13 @@
 
 Tiny Snippets of React Redux for [Atom](https://atom.io/) editor.
 
-This package autocompletes..
+This package autocompletes below with JSDOC comments.
 
-- connect `mapStateToProps`, `mapDispatchToProps`, `mergeProps` with JSDOC comments.
+- `<Providor />`
+- `connect` call
+- `mapStateToProps` definition
+- `mapDispatchToProps` definition
+- `mergeProps` definition
 
 #### example
 
@@ -51,6 +55,6 @@ Issues and PRs are welcome.
 
 ## Release Note
 
-### 0.0.0
+### 0.0.2
 
-- havenot released yet
+- released
